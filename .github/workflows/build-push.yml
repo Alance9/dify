@@ -18,8 +18,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
-  DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  DOCKERHUB_USER: "alance9"
+  DOCKERHUB_TOKEN: "dckr_pat_asxjKZB8lV_llnz0dsWd8CiptrE"
   DIFY_WEB_IMAGE_NAME: ${{ vars.DIFY_WEB_IMAGE_NAME || 'langgenius/dify-web' }}
   DIFY_API_IMAGE_NAME: ${{ vars.DIFY_API_IMAGE_NAME || 'langgenius/dify-api' }}
 
